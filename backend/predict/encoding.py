@@ -4,10 +4,10 @@ import numpy as np
 def one_hot_encode(sequence):
 
     mapping = {
-        'A': [1, 0, 0, 0],
-        'C': [0, 1, 0, 0],
-        'G': [0, 0, 1, 0],
-        'T': [0, 0, 0, 1]
+        'A': [1,0,0,0],
+        'T': [0,1,0,0],
+        'G': [0,0,1,0],
+        'C': [0,0,0,1]
     }
 
     sequence = sequence.upper()
